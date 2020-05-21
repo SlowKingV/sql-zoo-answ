@@ -154,7 +154,7 @@ AND name <> 'Art Garfunkel';
 
 # Quiz
 
-### 1. Select the statement which lists the unfortunate directors of the movies which have caused financial loses (gross < budget)
+#### 1. Select the statement which lists the unfortunate directors of the movies which have caused financial loses (gross < budget)
 
 ```SQL
 SELECT name
@@ -162,7 +162,7 @@ SELECT name
  WHERE gross < budget
  ```
 
- ### 2. Select the correct example of JOINing three tables
+ #### 2. Select the correct example of JOINing three tables
 
  ```SQL
  SELECT *
@@ -170,7 +170,7 @@ SELECT name
   JOIN movie ON movie.id = movieid
 ```
 
-### 3. Select the statement that shows the list of actors called 'John' by order of number of movies in which they acted
+#### 3. Select the statement that shows the list of actors called 'John' by order of number of movies in which they acted
 
 ```SQL
 SELECT name, COUNT(movieid)
@@ -179,7 +179,7 @@ SELECT name, COUNT(movieid)
  GROUP BY name ORDER BY 2 DESC
 ```
 
-### 4. Select the result that would be obtained from the following code:
+#### 4. Select the result that would be obtained from the following code:
 ```SQL
  SELECT title 
    FROM movie JOIN casting ON (movieid=movie.id)
@@ -194,7 +194,7 @@ SELECT name, COUNT(movieid)
 | Flipper |
 | Lightning Jack |
 
-### 5. Select the statement that lists all the actors that starred in movies directed by Ridley Scott who has id 351
+#### 5. Select the statement that lists all the actors that starred in movies directed by Ridley Scott who has id 351
 
 ```SQL
 SELECT name
@@ -203,12 +203,12 @@ SELECT name
 WHERE ord = 1 AND director = 351
 ```
 
-### 6. There are two sensible ways to connect movie and actor. They are:
+#### 6. There are two sensible ways to connect movie and actor. They are:
 
 - link the director column in movies with the primary key in actor
 - connect the primary keys of movie and actor via the casting table
 
-### 7. Select the result that would be obtained from the following code:
+#### 7. Select the result that would be obtained from the following code:
 ```SQL
  SELECT title, yr 
    FROM movie, casting, actor 

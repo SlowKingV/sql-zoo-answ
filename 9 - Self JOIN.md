@@ -125,7 +125,7 @@ ORDER BY bus1.num, bus1.company, name, bus2.num, bus2.company
 
 # Quiz
 
-### 1. Select the code that would show it is possible to get from Craiglockhart to Haymarket
+#### 1. Select the code that would show it is possible to get from Craiglockhart to Haymarket
 
 ```SQL
 SELECT DISTINCT a.name, b.name
@@ -135,7 +135,7 @@ SELECT DISTINCT a.name, b.name
  WHERE a.name='Craiglockhart' AND b.name ='Haymarket'
 ```
 
-### 2. Select the code that shows the stops that are on route.num '2A' which can be reached with one bus from Haymarket?
+#### 2. Select the code that shows the stops that are on route.num '2A' which can be reached with one bus from Haymarket?
 
 ```SQL
 SELECT S2.id, S2.name, R2.company, R2.num
@@ -145,7 +145,7 @@ SELECT S2.id, S2.name, R2.company, R2.num
    AND R2.stop=S2.id AND R2.num='2A'
 ```
 
-### 3. Select the code that shows the services available from Tollcross?
+#### 3. Select the code that shows the services available from Tollcross?
 
 ```SQL
 SELECT a.company, a.num, stopa.name, stopb.name

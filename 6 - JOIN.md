@@ -137,17 +137,17 @@ GROUP BY mdate, matchid, team1, team2
 
 # Quiz
 
-### 1. You want to find the stadium where player 'Dimitris Salpingidis' scored. Select the JOIN condition to use:
+#### 1. You want to find the stadium where player 'Dimitris Salpingidis' scored. Select the JOIN condition to use:
 
 ```SQL
  game  JOIN goal ON (id=matchid)
 ```
 
-### 2. You JOIN the tables goal and eteam in an SQL statement. Indicate the list of column names that may be used in the SELECT line:
+#### 2. You JOIN the tables goal and eteam in an SQL statement. Indicate the list of column names that may be used in the SELECT line:
 
 Answer:  matchid, teamid, player, gtime, id, teamname, coach
 
-### 3. Select the code which shows players, their team and the amount of goals they scored against Greece(GRE).
+#### 3. Select the code which shows players, their team and the amount of goals they scored against Greece(GRE).
 
 ```SQL
 SELECT player, teamid, COUNT(*)
@@ -157,7 +157,7 @@ SELECT player, teamid, COUNT(*)
  GROUP BY player, teamid
 ```
 
-### 4. Select the result that would be obtained from this code:
+#### 4. Select the result that would be obtained from this code:
 ```SQL
 SELECT DISTINCT teamid, mdate
   FROM goal JOIN game on (matchid=id)
@@ -169,7 +169,7 @@ teamid | mdate
 DEN | 9 June 2012
 GER | 9 June 2012
 
-### 5. Select the code which would show the player and their team for those who have scored against Poland(POL) in National Stadium, Warsaw.
+#### 5. Select the code which would show the player and their team for those who have scored against Poland(POL) in National Stadium, Warsaw.
 
 ```SQL
   SELECT DISTINCT player, teamid 
@@ -179,7 +179,7 @@ GER | 9 June 2012
    AND teamid != 'POL'
 ```
 
-### 6. Select the code which shows the player, their team and the time they scored, for players who have played in Stadion Miejski (Wroclaw) but not against Italy(ITA).
+#### 6. Select the code which shows the player, their team and the time they scored, for players who have played in Stadion Miejski (Wroclaw) but not against Italy(ITA).
 
 ```SQL
 SELECT DISTINCT player, teamid, gtime
@@ -188,7 +188,7 @@ SELECT DISTINCT player, teamid, gtime
    AND (( teamid = team2 AND team1 != 'ITA') OR ( teamid = team1 AND team2 != 'ITA'))
 ```
 
-### 7. Select the result that would be obtained from this code:
+#### 7. Select the result that would be obtained from this code:
 ```SQL
 SELECT teamname, COUNT(*)
   FROM eteam JOIN goal ON teamid = id

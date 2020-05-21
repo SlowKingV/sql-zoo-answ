@@ -25,7 +25,7 @@ SELECT name, area FROM world
 
 # Quiz
 
-### 1. Select the code which produces this table
+#### 1. Select the code which produces this table
 name | population
 ---- | ----------
 Bahrain | 1234571
@@ -38,7 +38,7 @@ SELECT name, population
  WHERE population BETWEEN 1000000 AND 1250000
  ```
 
- ### 2. Pick the result you would obtain from this code:
+ #### 2. Pick the result you would obtain from this code:
 ```SQL
       SELECT name, population
       FROM world
@@ -50,14 +50,14 @@ Table E
 Albania |	3200000
 Algeria |	32900000
 
-### 3. Select the code which shows the countries that end in A or L
+#### 3. Select the code which shows the countries that end in A or L
 
 ```SQL
 SELECT name FROM world
  WHERE name LIKE '%a' OR name LIKE '%l'
  ```
 
- ### 4. Pick the result from the query
+ #### 4. Pick the result from the query
  ```SQL
 SELECT name,length(name)
 FROM world
@@ -71,7 +71,7 @@ Italy |	5
 Malta |	5
 Spain |	5
 
-### 5. Here are the first few rows of the world table:
+#### 5. Here are the first few rows of the world table:
 name | region | area | population |	gdp
 ---- | ------ | ---- | ---------- | ---
 Afghanistan | South Asia | 652225 | 26000000 | 
@@ -87,7 +87,7 @@ SELECT name, area*2 FROM world WHERE population = 64000
 | ---- | -------- |
 | Andorra | 936 |
 
-### 6. Select the code that would show the countries with an area larger than 50000 and a population smaller than 10000000
+#### 6. Select the code that would show the countries with an area larger than 50000 and a population smaller than 10000000
 
 ```SQL
 SELECT name, area, population
@@ -95,7 +95,7 @@ SELECT name, area, population
  WHERE area > 50000 AND population < 10000000
 ```
 
-### 7. Select the code that shows the population density of China, Australia, Nigeria and France
+#### 7. Select the code that shows the population density of China, Australia, Nigeria and France
 
 ```SQL
 SELECT name, population/area

@@ -128,7 +128,7 @@ WHERE name LIKE '%a%'
 
 # Quiz
 
-### 1. Select the code which gives the name of countries beginning with U
+#### 1. Select the code which gives the name of countries beginning with U
 
 ```SQL
 SELECT name
@@ -136,7 +136,7 @@ SELECT name
  WHERE name LIKE 'U%'
 ```
 
-### 2. Select the code which shows just the population of United Kingdom?
+#### 2. Select the code which shows just the population of United Kingdom?
 
 ```SQL
 SELECT population
@@ -144,7 +144,7 @@ SELECT population
  WHERE name = 'United Kingdom'
  ```
 
- ### 3. Select the answer which shows the problem with this SQL code - the intended result should be the continent of France:
+ #### 3. Select the answer which shows the problem with this SQL code - the intended result should be the continent of France:
  ```SQL
   SELECT continent 
    FROM world 
@@ -153,7 +153,7 @@ SELECT population
 
 Answer: 'name' should be name
 
-### 4. Select the result that would be obtained from the following code:
+#### 4. Select the result that would be obtained from the following code:
 ```SQL
  SELECT name, population / 10 
   FROM world 
@@ -164,7 +164,7 @@ name | population
 ---- | ----------
 Nauru | 990
 
-### 5. Select the code which would reveal the name and population of countries in Europe and Asia
+#### 5. Select the code which would reveal the name and population of countries in Europe and Asia
 
 ```SQL
 SELECT name, population
@@ -172,14 +172,14 @@ SELECT name, population
  WHERE continent IN ('Europe', 'Asia')
  ```
 
- ### 6. Select the code which would give two rows
+ #### 6. Select the code which would give two rows
 
 ```SQL
 SELECT name FROM world
  WHERE name IN ('Cuba', 'Togo')
 ```
 
-### 7. Select the result that would be obtained from this code:
+#### 7. Select the result that would be obtained from this code:
 ```SQL
 SELECT name FROM world
  WHERE continent = 'South America'

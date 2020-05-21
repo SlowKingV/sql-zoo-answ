@@ -132,14 +132,14 @@ ORDER BY subject IN ('Physics', 'Chemistry'), subject, winner
 
 # Quiz
 
-### 1. Pick the code which shows the name of winner's names beginning with C and ending in n
+#### 1. Pick the code which shows the name of winner's names beginning with C and ending in n
 
 ```SQL
 SELECT winner FROM nobel
  WHERE winner LIKE 'C%' AND winner LIKE '%n'
 ```
 
-### 2. Select the code that shows how many Chemistry awards were given between 1950 and 1960
+#### 2. Select the code that shows how many Chemistry awards were given between 1950 and 1960
 
 ```SQL
 SELECT COUNT(subject) FROM nobel
@@ -147,14 +147,14 @@ SELECT COUNT(subject) FROM nobel
    AND yr BETWEEN 1950 and 1960
 ```
 
-### 3. Pick the code that shows the amount of years where no Medicine awards were given
+#### 3. Pick the code that shows the amount of years where no Medicine awards were given
 
 ```SQL
 SELECT COUNT(DISTINCT yr) FROM nobel
  WHERE yr NOT IN (SELECT DISTINCT yr FROM nobel WHERE subject = 'Medicine')
 ```
 
-### 4. Select the result that would be obtained from the following code:
+#### 4. Select the result that would be obtained from the following code:
 ```SQL
 SELECT subject, winner FROM nobel WHERE winner LIKE 'Sir%' AND yr LIKE '196%'
 ```
@@ -164,7 +164,7 @@ subject | winner
 Medicine | Sir John Eccles
 Medicine | Sir Frank Macfarlane Burnet
 
-### 5. Select the code which would show the year when neither a Physics or Chemistry award was given
+#### 5. Select the code which would show the year when neither a Physics or Chemistry award was given
 
 ```SQL
 SELECT yr FROM nobel
@@ -173,7 +173,7 @@ SELECT yr FROM nobel
                  WHERE subject IN ('Chemistry','Physics'))
 ```
 
-### 6. Select the code which shows the years when a Medicine award was given but no Peace or Literature award was
+#### 6. Select the code which shows the years when a Medicine award was given but no Peace or Literature award was
 
 ```SQL
 SELECT DISTINCT yr
@@ -185,7 +185,7 @@ SELECT DISTINCT yr
                    WHERE subject='Peace')
 ```
 
-### 7. Pick the result that would be obtained from the following code:
+#### 7. Pick the result that would be obtained from the following code:
 ```SQL
  SELECT subject, COUNT(subject) 
    FROM nobel 
