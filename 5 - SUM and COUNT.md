@@ -119,9 +119,9 @@ Answer: No result due to invalid use of the WHERE function
   HAVING SUM(area)<= 20000000
 ```
 
-| Table D |
-| ------- |
-Americas | 732240
-Middle East | 13403102
-South America | 17740392
-South Asia | 9437710
+| region | SUM(area) |
+| ------ | --------- |
+| Americas | 732240 |
+| Middle East | 13403102 |
+| South America | 17740392 |
+| South Asia | 9437710 |
