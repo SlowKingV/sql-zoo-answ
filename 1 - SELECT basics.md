@@ -83,6 +83,7 @@ Andorra | Europe | 468 | 64000 |
 Pick the result you would obtain from this code:
 SELECT name, area*2 FROM world WHERE population = 64000
 
+| -- | -- |
 | Andorra | 936 |
 
 ### 6. Select the code that would show the countries with an area larger than 50000 and a population smaller than 10000000
