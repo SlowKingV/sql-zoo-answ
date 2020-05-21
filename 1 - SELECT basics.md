@@ -22,3 +22,12 @@ Which countries are not too small and not too big? BETWEEN allows range checking
 SELECT name, area FROM world
   WHERE area BETWEEN 200000 AND 250000
 ```
+
+# Quiz
+
+### 1. Select the code which produces this table
+name | population
+- | -
+Bahrain | 1234571
+Swaziland |	1220000
+Timor-Leste |	1066409
