@@ -1,57 +1,20 @@
-# Project Name
+# SQL Project
 
-> One paragraph statement about the project.
+> This project will test the student’s domain of SQL queries by requesting them to retrieve and organize different pieces of data from a table.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+Go to [SQL Zoo](http://sqlzoo.net/wiki/Main_Page) and do Tutorials 0-9 listed under the “Tutorial Section” and the quizzes listed at the end of each. The first is the [“Select” tutorial](http://sqlzoo.net/wiki/SELECT_basics). Make sure the dropdown on the upper right of the main page for “Engine” says “MySQL” (the default). Large results will be cut off and not all rows or columns shown, so the “answers” may not look 100% correct.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- SQL
 
 ## Authors
 
-👤 **Author1**
+👤 **Diego Luna Granados**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@SlowKingV](https://github.com/SlowKingV)
+- Twitter: [@SlowKingVI](https://twitter.com/SlowKingVI)
+- Linkedin: [Diego Luna Granados](https://www.linkedin.com/in/diego-luna-granados-64007b197/)
 
 ## 🤝 Contributing
 
@@ -65,10 +28,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+- All the questions and exercises come from [SQLzoo](https://sqlzoo.net/)
+- Thanks to [Microverse](https://www.microverse.org/) and [The Odin Project](https://www.theodinproject.com).
