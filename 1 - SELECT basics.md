@@ -27,7 +27,7 @@ SELECT name, area FROM world
 
 ### 1. Select the code which produces this table
 name | population
-- | -
+-- | -
 Bahrain | 1234571
 Swaziland |	1220000
 Timor-Leste |	1066409
